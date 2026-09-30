@@ -63,6 +63,7 @@ Again, activating a teleporter on a vanilla lodestone works, but it will not be 
 <i>A: This is a known, ignored issue. If it happens just stand a little closer and hit the same lodestone.</i>
 
 ## Version 1.0.1
-This update adds the ability to teleport groups with a new item: The Group Lodestone Teleporter (durrrr). It's crafted with four diamonds and one gold ingot and will teleport all mobs within 2 blocks of the user to the linked lodestone as such:
+This update adds the ability to teleport groups with a new item: The Group Lodestone Teleporter (durrrr). It's crafted with four diamonds and one gold ingot and will teleport all mobs within 2 blocks of the user to the bound lodestone as such:
 <img width="354" height="164" alt="Empty, Diamond, Empty, (next row) Diamond, Gold Ingot, Diamond, (next row) Empty, Diamond, Empty" src="https://github.com/user-attachments/assets/c79270d0-2bb2-42c4-b7d0-e27d5f28f66e" />
+
 This release also adds the ability to teleport with your horse! Eating a standard four gold, one diamond teleporter will now also teleport whatever the player is riding when they consume the teleporter.
