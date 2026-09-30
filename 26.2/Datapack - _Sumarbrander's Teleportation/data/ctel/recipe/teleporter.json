@@ -29,7 +29,8 @@
       },
       "custom_data": {
         "IsTeleporterNamed":false,
-          "IsTeleporter":true
+          "IsTeleporter":true,
+          "IsForGroup": false
       }
     },
     "count": 1

@@ -2,6 +2,10 @@ $execute in $(dimension) positioned $(x) $(y) $(z) unless block ~ ~1 ~ air run r
 
 # execute in overworld positioned 1 2 3 if block ~ ~1 ~ air  run say "Unable to teleport: Location obstructed"
 
-$execute in $(dimension) positioned $(x) $(y) $(z) run tp @s ~ ~1 ~
+
+# $execute in $(dimension) positioned $(x) $(y) $(z) run tp @s ~ ~1 ~
 $playsound block.amethyst_block.break ambient @a $(x) $(y) $(z)
-$execute in $(dimension) positioned $(x) $(y) $(z) run particle minecraft:totem_of_undying ~ ~2 ~ 0 0 0 1 100
+$execute in $(dimension) positioned $(x) $(y) $(z) run particle minecraft:totem_of_undying ~ ~2 ~ 0 0 0 1 100 
+
+$execute as @s on vehicle in $(dimension) positioned $(x) $(y) $(z) run return run tp @s ~ ~1 ~
+$execute as @s in $(dimension) positioned $(x) $(y) $(z) run tp @s ~ ~1 ~
